@@ -1,0 +1,363 @@
+/*Reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*Universal*/
+body {
+  background-color: rgb(221, 221, 221);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto 3rem auto;
+  background-color: white;
+}
+
+/*Header*/
+
+#header {
+  display: block;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 2;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.nati {
+  background-color: rgb(46, 46, 46);;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.cincy, .nav {
+  width: 960px;
+  display: flex;
+  margin:0 auto;
+  justify-content: space-between;
+  
+}
+
+.cincy a, .topnav a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.banks a {
+  font-weight: 400;
+}
+
+.login {
+  display: flex;
+}
+
+.login img{
+  
+}
+
+.navbar {
+  background-color: rgb(3, 3, 3);
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.topnav {
+  display: block;
+  margin: auto 0;
+  width: 100%;
+  text-align: center;
+}
+
+.topnav a {
+  padding: 0.5rem;
+}
+
+.order {
+  background-color: #995937; /*color linear gradient*/
+  border-radius: 5%;
+  font-size: 0.75rem;
+  padding: 0.5rem;
+}
+
+/*Locations section*/
+
+.happy  {
+  padding-top: 10.5rem;
+}
+
+.find {
+  background-image: url(https://media.yardhouse.com/images/site/tabmenu-bg.png);
+  margin-top: -0.25rem;
+}
+
+.find ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.find a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/*main page*/
+  
+#main {
+  display: flex;
+  padding: 1rem;
+}
+
+.freedom {
+  padding-right: 1rem;
+}
+
+.address {
+  border-bottom: 1px grey dotted;
+  padding-bottom: 1rem;
+}
+
+.address p {
+  font-size: 12px;
+  color: #706b6b;
+  line-height: 1.5rem;
+  font-weight: bold;
+}
+
+h1 { 
+  color: black;
+  font-size: 36px;
+  letter-spacing: 1px;
+  line-height: 48px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dining {
+  margin: 0 auto;
+  height: 60%;
+}
+
+.dining li a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.75rem;
+  padding: 1rem;
+  font-weight: bolder;
+}
+
+.dining li {
+  padding: 0.75rem 0;
+  width: 175px;
+  background-color: #995937;
+  border-radius: 5%;
+  margin: 0.75rem 0;
+}
+
+.dining h3 {
+  padding: 0.5rem 0;
+}
+
+.dining h3 a{
+  text-decoration: none;
+  color: #995937;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+ .map img, .map{
+   width: 600px;
+   height: auto;
+ }
+
+ .map p {
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 1.5rem;
+   padding: 1rem 0px;
+ }
+
+ /*hours Get directions*/
+ .details {
+   display: flex;
+   justify-content: space-around;
+ }
+
+ .hours {
+   
+ }
+
+ .time {
+   height: 20rem;
+   margin-top: 1rem;
+   font-weight: bold;
+   font-size: 12px;
+ }
+
+ .time tr {
+   padding: 1rem 0;
+ }
+
+ .time a {
+   text-decoration: none;
+   color: #995937;
+ }
+
+.info {
+  
+}
+
+.directions {
+
+}
+
+.directions a {
+  text-decoration: none;
+}
+
+.restaurant {
+  display: flex;
+  color: white;
+  font-weight: bold;
+}
+
+.restaurant h4 {
+  background-color: #995937;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.restaurant h6  {
+  margin: 0 auto;
+}
+
+.restaurant p a {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  display: block;
+  margin-left: 20px;
+}
+
+.destination {
+  display: flex;
+}
+
+.destination span {
+  border: 1px solid black;
+  padding: .5rem 12rem .5rem .5rem;
+  margin: .5rem 0;
+  border-radius: 5%;
+  color: gray;
+}
+
+.destination p {
+  padding: 1rem 0 0 3rem;
+  font-weight: bold;
+  color: black;
+}
+.destination p a {
+  color: black;
+}
+
+.yardhouse {
+  padding-top: 2rem ;
+  font-size: 12px;
+  color:  #995937;
+  font-weight: bold;
+}
+
+.yardhouse p{
+  padding-bottom: 0.5rem;
+}
+
+.other h4 {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 0.75rem 0 1.5rem 0;
+}
+
+.other p {
+  font-weight: bold;
+  line-height: 1.5rem;
+  color: rgb(88, 87, 87);
+}
+
+.online { 
+  display: flex;
+}
+
+.online img {
+  padding-right: 2.3rem;
+}
+
+.seating {
+  display: flex;
+  padding-bottom: 1rem;
+}
+
+.seating img {
+  padding-right: 1rem;
+}
+
+
+/*footer*/
+#footer {
+  background-color: black;
+  color: white;
+}
