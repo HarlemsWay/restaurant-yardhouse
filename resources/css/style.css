@@ -481,3 +481,21 @@ footer {
   margin-bottom: 0.5rem;
   color: lightgray;
 }
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  color: #906d4f;
+  font-size: 12px;
+  margin-bottom: 0.25rem;
+}
+
+.copyright p {
+  margin-right: 0.5rem;
+}
+
+.darden {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+}
