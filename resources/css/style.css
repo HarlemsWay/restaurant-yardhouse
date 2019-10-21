@@ -361,3 +361,57 @@ h1 {
   background-color: black;
   color: white;
 }
+
+.custinfo {
+  display: flex;
+  padding: 2rem 0;
+}
+
+.date {
+  display: flex;
+}
+
+.email h4{
+  font-weight: bold;
+  padding-right: 2rem;
+}
+
+.email p {
+  background-color: rgb(46, 46, 46);
+  color: gray;
+  padding: 0.5rem 10rem 0.5rem 0;
+  margin: 1rem 2rem 0 0;
+  border-radius: 5%;
+  font-weight: bold;
+}
+
+.dob h6 {
+  color: lightgray;
+  font-size: 12px;
+  padding-bottom: 1rem;
+  margin-left: 0.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.date {
+  ;
+}
+
+.date p{
+  color: #995937;
+  font-weight: bold;
+  margin: auto 0 auto 0.5rem;
+  background-color: rgb(46, 46, 46);
+  padding: 0.5rem 2rem 0.5rem 0.5rem;
+  border-radius: 5%;
+  width: 4rem;
+  box-shadow: gray;
+ 
+}
+
+.date a {
+  width: 2rem;
+  height: auto;
+  background-color: #995937;
+  border-radius: 5%;
+}
