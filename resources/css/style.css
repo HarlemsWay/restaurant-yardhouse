@@ -362,6 +362,11 @@ h1 {
   color: white;
 }
 
+footer {
+  max-width: 960px;
+  margin: 0 auto 3rem auto;
+}
+
 .custinfo {
   display: flex;
   padding: 2rem 0;
@@ -394,7 +399,7 @@ h1 {
 }
 
 .date {
-  ;
+  
 }
 
 .date p{
@@ -414,4 +419,47 @@ h1 {
   height: auto;
   background-color: #995937;
   border-radius: 5%;
+}
+
+.brands p {
+  font-weight: bold;
+  letter-spacing: 0.08rem;
+}
+
+.brands ul{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+  color: grey;
+  font-weight: bold;
+}
+
+.brands a {
+  background-color: gray;
+  border: 1px solid rgb(46, 46, 46);
+  width: 1rem;
+  height: 1rem;
+  margin-right: 1rem;
+}
+
+.brands li {
+  margin: auto 2.5rem auto 0;
+  width: 10rem;
+  height: 1.5rem;
+  font-size: 12px;
+  padding: 0.25rem 0 0 0;
+}
+
+.join {
+  background-color: #995937;
+  border-radius: 5%;
+  height: 2rem;
+  width: 5rem;
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 4rem;
+}
+
+.join p {
+  margin: auto;
 }
