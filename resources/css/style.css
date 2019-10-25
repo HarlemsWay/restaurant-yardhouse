@@ -70,7 +70,7 @@ main {
   right: 0;
   position: fixed;
   z-index: 2;
-  color: whitesmoke;
+  color: white;
   font-weight: bold;
 }
 
@@ -79,7 +79,9 @@ main {
   display: block;
   width: 100%;
   margin: 0 auto;
-  padding: 10px;
+  height: 30px;
+  padding-top: 8px;
+  position: absolute;
 }
 
 .cincy, .nav {
@@ -87,23 +89,29 @@ main {
   display: flex;
   margin:0 auto;
   justify-content: space-between;
-  
 }
+
 
 .cincy a, .topnav a {
   text-decoration: none;
-  color: whitesmoke;
+  color: white;
 }
 
 .banks a {
   font-weight: 400;
 }
 
-.login {
-  display: flex;
+.banks a:hover {
+  opacity: 0.5;
 }
 
-.login img{
+.login {
+  display: flex;
+  width: 5rem;
+  height: auto;
+  justify-content: space-around;
+  position: relative;
+  left: 20px;
   
 }
 
@@ -112,7 +120,10 @@ main {
   display: block;
   width: 100%;
   margin: 0 auto;
-  padding: 1rem;
+  height: 7rem;
+  position: absolute;
+  top: 32.5px;
+  padding: 0.75rem 0 0.25rem 0;
 }
 
 .topnav {
@@ -122,21 +133,32 @@ main {
   text-align: center;
 }
 
+.topnav a:hover {
+  color: gray;
+}
+
 .topnav a {
   padding: 0.5rem;
 }
 
 .order {
   background-color: #995937; /*color linear gradient*/
-  border-radius: 5%;
+  border-radius: 5px;
   font-size: 0.75rem;
   padding: 0.5rem;
+  transition-duration: 0.4s;
+}
+
+.order:hover {
+  color: white !important;
+  opacity: 0.75;
+  
 }
 
 /*Locations section*/
 
 .happy  {
-  padding-top: 10.5rem;
+  padding-top: 10rem;
 }
 
 .find {
@@ -364,7 +386,8 @@ h1 {
 
 footer {
   max-width: 960px;
-  margin: 0 auto 3rem auto;
+  margin: 0 auto;
+  padding-bottom: 5rem;
 }
 
 .custinfo {
@@ -396,10 +419,6 @@ footer {
   padding-bottom: 1rem;
   margin-left: 0.5rem;
   letter-spacing: 0.1rem;
-}
-
-.date {
-  
 }
 
 .date p{
