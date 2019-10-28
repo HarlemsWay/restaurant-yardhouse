@@ -52,7 +52,7 @@ table {
 /*Universal*/
 body {
   background-color: rgb(221, 221, 221);
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
   font-size: 14px;
 }
 
@@ -142,7 +142,8 @@ main {
 }
 
 .order {
-  background-color: #995937; /*color linear gradient*/
+  background-color: #9a3324; /*color linear gradient*/
+  background-image: linear-gradient(135deg, #995937 0%, #ab633d 43%, #cd7749 49%, #ab633d 55%, #995937 100%);
   border-radius: 5px;
   font-size: 0.75rem;
   padding: 0.5rem;
@@ -151,14 +152,14 @@ main {
 
 .order:hover {
   color: white !important;
-  opacity: 0.75;
+  background-image: linear-gradient(to right, #cd7749, #ab633d, #cd7749)
   
 }
 
 /*Locations section*/
 
-.happy  {
-  padding-top: 10rem;
+.happy   { 
+   padding-top: 10rem;
 }
 
 .find {
@@ -175,7 +176,12 @@ main {
 .find a {
   text-decoration: none;
   color: black;
-  font-weight: bold;
+  font-weight: 600;
+}
+
+.find a:hover {
+  color: white;
+  text-shadow: 2px 2px 2px black;
 }
 
 /*main page*/
@@ -220,19 +226,28 @@ h1 {
   text-decoration: none;
   font-size: 0.75rem;
   padding: 1rem;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .dining li {
   padding: 0.75rem 0;
   width: 175px;
   background-color: #995937;
-  border-radius: 5%;
+  background-image: linear-gradient(135deg, #995937 0%, #ab633d 43%, #cd7749 49%, #ab633d 55%, #995937 100%);
+  border-radius: 5px;
   margin: 0.75rem 0;
+}
+
+.dining li:hover {
+  background-image: linear-gradient(to right, #cd7749, #ab633d, #cd7749);
 }
 
 .dining h3 {
   padding: 0.5rem 0;
+}
+
+.dining h3:hover {
+  text-decoration: underline;
 }
 
 .dining h3 a{
@@ -300,6 +315,7 @@ h1 {
 
 .restaurant h4 {
   background-color: #995937;
+  background-image: linear-gradient(135deg, #995937 0%, #ab633d 43%, #cd7749 49%, #ab633d 55%, #995937 100%);
   padding: 0.5rem;
   margin-right: 0.5rem;
 }
