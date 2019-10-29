@@ -78,8 +78,9 @@ main {
   background-color: rgb(46, 46, 46);;
   display: block;
   width: 100%;
-  margin: 0 auto;
-  padding: 10px;
+  height: 2rem;
+  margin: auto;
+  line-height: 2rem;
 }
 
 .cincy, .nav {
@@ -101,6 +102,11 @@ main {
 
 .login {
   display: flex;
+  justify-content: right;
+}
+
+.login a {
+  margin-right: 1rem;
 }
 
 .login img{
@@ -136,7 +142,7 @@ main {
 /*Locations section*/
 
 .happy  {
-  padding-top: 10.5rem;
+  padding-top: 10.25rem;
 }
 
 .find {
@@ -360,11 +366,13 @@ h1 {
 #footer {
   background-color: black;
   color: white;
+  letter-spacing: 0.1rem;
 }
 
 footer {
   max-width: 960px;
-  margin: 0 auto 3rem auto;
+  margin: 0 auto;
+  padding-bottom: 4rem;
 }
 
 .custinfo {
@@ -384,7 +392,7 @@ footer {
 .email p {
   background-color: rgb(46, 46, 46);
   color: gray;
-  padding: 0.5rem 10rem 0.5rem 0;
+  padding: 0.5rem 10rem 0.5rem 0.25rem;
   margin: 1rem 2rem 0 0;
   border-radius: 5%;
   font-weight: bold;
@@ -404,14 +412,11 @@ footer {
 
 .date p{
   color: #995937;
-  font-weight: bold;
   margin: auto 0 auto 0.5rem;
   background-color: rgb(46, 46, 46);
-  padding: 0.5rem 2rem 0.5rem 0.5rem;
+  padding: 0.5rem 0.75rem 0.5rem 0.5rem;
   border-radius: 5%;
   width: 4rem;
-  box-shadow: gray;
- 
 }
 
 .date a {
