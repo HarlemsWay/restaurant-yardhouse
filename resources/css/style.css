@@ -78,16 +78,10 @@ main {
   background-color: rgb(46, 46, 46);;
   display: block;
   width: 100%;
-<<<<<<< HEAD
-  height: 2rem;
-  margin: auto;
-  line-height: 2rem;
-=======
   margin: 0 auto;
   height: 30px;
   padding-top: 8px;
   position: absolute;
->>>>>>> 3228a841f06e81c73921171b1a801a8b2feefff6
 }
 
 .cincy, .nav {
@@ -234,13 +228,8 @@ main {
 
 /*Locations section*/
 
-<<<<<<< HEAD
-.happy  {
-  padding-top: 10.25rem;
-=======
 .happy   { 
    padding-top: 10rem;
->>>>>>> 3228a841f06e81c73921171b1a801a8b2feefff6
 }
 
 .find {
