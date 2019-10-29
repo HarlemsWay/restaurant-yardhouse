@@ -9,7 +9,8 @@
     <meta name="yard house portfio" content="1 of 5 first websites for my portfolio">
         <!--google fonts and favicon links-->
     <link href="resources\css\style.css" rel="stylesheet" type="text/css">
-        <!--Javascript link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <!--Javascript link-->
     <script type="text/javascript" src="jsfile.js"></script>
 </head>
 
@@ -23,7 +24,14 @@
         <div class="nati"> 
             <div class="cincy"> 
                 <div class="banks">
-                    <p>YOUR LOCATION: <a href="">CINCINNATI - THE BANKS</a></p>
+                    <p>YOUR LOCATION: 
+                        <div class="popup" onclick="myFunction()"> 
+                         CINCINNATI - THE BANKS <i class="fa">&#xf0d7</i>
+                            <span class="popuptext" id="myPopup">
+                                A simple popup! 
+                            </span>
+                        </div>
+                    </p>
                 </div>
                 <div class="login"> 
                    <p><a href="">LOGIN</a></p>
