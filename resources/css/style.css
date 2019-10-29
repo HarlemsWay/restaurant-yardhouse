@@ -102,12 +102,17 @@ main {
   font-weight: 400;
 }
 
+.locationlocation {
+  display: flex;
+}
+
 .popup {
+  display: flex;
   padding-left: 5px;
 }
 
 .popup:hover {
-  opacity: 0.5;
+  
 }
 
 .fa {
@@ -117,7 +122,7 @@ main {
 /*location popUp*/
 .popup {
   position: relative;
-  display: inline-block;
+  display: block;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -128,29 +133,22 @@ main {
 /* The actual popup */
 .popup .popuptext {
   visibility: hidden;
-  width: 160px;
-  background-color: #555;
-  color: #fff;
+  width: 300px;
+  height: 500px;
+  background-color: white;
+  border: 1px solid grey;
   text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
+  padding: 10px;
   position: absolute;
   z-index: 100;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -80px;
+  top: 1.25rem;
+  right: 5px;
 }
 
 /* Popup arrow */
 .popup .popuptext::after {
   content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
+ 
 }
 
 /* Toggle this class - hide and show the popup */
