@@ -521,7 +521,7 @@ footer {
   color: gray;
   padding: 0.5rem 10rem 0.5rem 0.25rem;
   margin: 1rem 2rem 0 0;
-  border-radius: 5%;
+  border-radius: 5px;
   font-weight: bold;
 }
 
@@ -538,7 +538,7 @@ footer {
   margin: auto 0 auto 0.5rem;
   background-color: rgb(46, 46, 46);
   padding: 0.5rem 0.75rem 0.5rem 0.5rem;
-  border-radius: 5%;
+  border-radius: 5px;
   width: 4rem;
 }
 
@@ -546,7 +546,7 @@ footer {
   width: 2rem;
   height: auto;
   background-color: #995937;
-  border-radius: 5%;
+  border-radius: 5px;
 }
 
 .brands p {
@@ -561,14 +561,16 @@ footer {
   color: grey;
   font-weight: bold;
 }
-
-.brands a {
-  background-color: gray;
+/*checkmark box*/
+.brands input {
+  background-color: #383838;
+  color: red;
   border: 1px solid rgb(46, 46, 46);
   width: 1rem;
   height: 1rem;
   margin-right: 1rem;
 }
+/*end checkmark box*/
 
 .brands li {
   margin: auto 2.5rem auto 0;
@@ -580,7 +582,7 @@ footer {
 
 .join {
   background-color: #995937;
-  border-radius: 5%;
+  border-radius: 5px;
   height: 2rem;
   width: 5rem;
   font-weight: bold;
