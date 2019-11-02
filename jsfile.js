@@ -5,7 +5,3 @@ function myFunction() {
 }
 
 //footer join button
-function myFunction() {
-    
-    
-}
