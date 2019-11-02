@@ -495,11 +495,7 @@ h1 {
 footer {
   max-width: 960px;
   margin: 0 auto;
-<<<<<<< HEAD
-  padding-bottom: 4rem;
-=======
   padding-bottom: 5rem;
->>>>>>> 3228a841f06e81c73921171b1a801a8b2feefff6
 }
 
 .custinfo {
