@@ -107,29 +107,37 @@ main {
 .locationlocation {
   display: flex;
   justify-content: right;
+  line-height: 1rem;
 }
 
 .locationlocation h2 {
   font-weight: 600;
 }
 
-.login a {
-  margin-right: 1rem;
+.login p {
+  left: 1rem;
+  line-height: 1rem;
 }
 
+.login img{
+  padding: 0 0 1rem 1rem;
+  cursor: auto;
+}
+
+/*Popup Display*/
 .popup {
   padding-left: 5px;
 }
 
-.popup h3:hover {
+.popup h3:hover, .login a:hover {
   opacity: .5;
 }
 
 .fa {
   display: block;
   position: relative;
-  left: 10rem;
-  bottom:  0.8rem;
+  left: 11rem;
+  bottom:  1rem;
   padding-left: 5px;
   color: rgb(189, 189, 189);
 }
@@ -137,7 +145,7 @@ main {
 /*location popUp*/
 .popup {
   position: relative;
-  display: block;
+  display: inline-block;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -148,22 +156,105 @@ main {
 /* The actual popup */
 .popup .popuptext {
   visibility: hidden;
-  width: 300px;
-  height: 465px;
+  width: 286px;
+  height: 435px;
   background-color: white;
   border: 1px solid grey;
-  text-align: center;
-  padding: 10px;
+  color: black;
+  padding: 1rem;
   position: absolute;
   z-index: 100;
   top: 1.25rem;
-  
 }
 
-/* Popup arrow */
-.popup .popuptext::after {
-  content: "";
- 
+/*popup window info*/
+.popuptext h2 {
+  text-align: center;
+  padding-bottom: 1rem;
+  font-weight: 600;
+}
+
+.winhead {
+  display: flex;
+  padding-bottom: 1.5rem;
+  font-size: 12px;
+}
+.winhead img {
+  width: 7rem;
+  height: auto;
+  padding-right: 15px;
+}
+
+.winbank h3 {
+  text-decoration: underline;
+  font-weight: bold;
+  padding-bottom: 0.75rem;
+}
+/*popup days and hours*/
+.winadd {
+  color: grey;
+}
+
+.wintime {
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+  font-size: 12px;
+}
+
+.popuptext h3 {
+  text-decoration: underline;
+  font-size: 12px;
+  padding: 0.25rem 0 1rem 0;
+}
+/*popup eat drink happy hour etc.*/
+.winlink ul{
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: lightgrey;
+  gap: 1px;
+  padding: 1px 0;
+}
+
+.winlink li {
+  background-color: white;
+  width: 9rem;
+  height: 2rem;
+  line-height: 2rem;
+  text-decoration: underline;
+  font-size: 12px;
+  padding-left: 0.5rem;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+/*new location button*/
+.newloc {
+  display: block;
+  width: 100%;
+  height: 4rem;
+  background-color: #9a3324; 
+  background-image: linear-gradient(135deg, #995937 0%, #ab633d 43%, #cd7749 49%, #ab633d 55%, #995937 100%);
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 1rem;
+  line-height: 4rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.newloc p {
+  display: inline-block;
+  background-color: #9a3324; 
+  background-image:  linear-gradient(135deg, #995937 0%, #ab633d 40%, #cd7749 49%, #ab633d 58%, #995937 100%);
+  width: 10rem;
+  height: 2rem;
+  border-radius: 5px;
+  line-height: 2rem;
+}
+
+.newloc:hover, .newloc p {
+  background-image: linear-gradient(135deg,   ;   /*figure out the hover color scheme*///////////////////////////////
 }
 
 /* Toggle this class - hide and show the popup */
@@ -183,9 +274,9 @@ main {
   from {opacity: 0;}
   to {opacity:1 ;}
 }
+/*end of popup*/
 
 /*Login navbar*/
-
 .login {
   display: flex;
   width: 5rem;
