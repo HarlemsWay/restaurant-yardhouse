@@ -125,10 +125,6 @@ main {
 }
 
 /*Popup Display*/
-.popup {
-  padding-left: 5px;
-}
-
 .popup h3:hover, .login a:hover {
   opacity: .5;
 }
@@ -147,6 +143,7 @@ main {
   position: relative;
   display: inline-block;
   cursor: pointer;
+  padding-left: 5px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -252,13 +249,12 @@ main {
   border-radius: 5px;
   line-height: 2rem;
 }
-
-.newloc:hover, .newloc p {
-  background-image: linear-gradient(135deg,   );   /*figure out the hover color scheme*/
+/*newloc hover*/
+.newloc:hover, .newloc p:hover {
+  background-image: linear-gradient(135deg, #cd7749 0%, #ab633d 43%, #cd7749 49%, #ab633d 55%, #cd7749 100%);   /*figure out the hover color scheme*/
 }
-
-/* Toggle this class - hide and show the popup */
-.popup .show {
+  /* Toggle this class - hide and show the popup */
+.popup  .show {
   visibility: visible;
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
