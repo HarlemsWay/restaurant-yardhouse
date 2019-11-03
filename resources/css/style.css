@@ -254,7 +254,7 @@ main {
 }
 
 .newloc:hover, .newloc p {
-  background-image: linear-gradient(135deg,   ;   /*figure out the hover color scheme*///////////////////////////////
+  background-image: linear-gradient(135deg,   );   /*figure out the hover color scheme*/
 }
 
 /* Toggle this class - hide and show the popup */
@@ -457,10 +457,6 @@ h1 {
    
  }
 
- .hours {
-   
- }
-
  .time {
    height: 20rem;
    margin-top: 1rem;
@@ -476,14 +472,6 @@ h1 {
    text-decoration: none;
    color: #995937;
  }
-
-.info {
-  
-}
-
-.directions {
-
-}
 
 .directions a {
   text-decoration: none;
@@ -586,11 +574,7 @@ h1 {
 footer {
   max-width: 960px;
   margin: 0 auto;
-<<<<<<< HEAD
-  padding-bottom: 4rem;
-=======
   padding-bottom: 5rem;
->>>>>>> 3228a841f06e81c73921171b1a801a8b2feefff6
 }
 
 .custinfo {
