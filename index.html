@@ -13,7 +13,10 @@
         <!--font awesome 5 icons-->   
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
-    
+        <!--jQuery and Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
         <!--Javascript link-->
     <script type="text/javascript" src="jsfile.js"></script>
 </head>
@@ -260,13 +263,22 @@
             </div>
             <div class="dob"> 
                 <h6>Date of Birth*</h6>
-                    <div class="date"> 
-                        <p>MONTH*</p>
-                            <a href=""></a>
-                        <p>DAY*</p>
-                            <a href=""></a>
-                        <p>YEAR*</p>
-                            <a href=""></a>
+                    <div class="dropdown"> 
+                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                                <p>MONTH*</p>
+                                <span class="caret"></span>
+                            </button>
+                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                                <p>DAY*</p>
+                                <span class="caret"></span>
+                            </button>
+                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                                <p>YEAR*</p>
+                                <span class="caret"></span>
+                            </button>
+                              <ul class="dropdown-menu">
+
+                            </ul>
                     </div>   
             </div>
         </div>

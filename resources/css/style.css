@@ -578,10 +578,6 @@ footer {
   padding: 2rem 0;
 }
 
-.date {
-  display: flex;
-}
-
 .email h4{
   font-weight: bold;
   padding-right: 2rem;
@@ -604,21 +600,34 @@ footer {
   letter-spacing: 0.1rem;
 }
 
-.date p{
+.dropdown {
+  display: flex;
+}
+/*working on dropdown buttons*/
+.dropdown .btn {
   color: #995937;
-  margin: auto 0 auto 0.5rem;
-  background-color: rgb(46, 46, 46);
-  padding: 0.5rem 0.75rem 0.5rem 0.5rem;
+  display: flex;
+  background-color: rgb(27, 27, 27);
+  margin-right: 10px;
   border-radius: 5px;
-  width: 4rem;
+  border-right: 2rem solid #995937; 
+  font-weight: 600;
+  height: 3.5rem;
+  box-shadow:  rgb(85, 85, 85);
 }
 
-.date a {
-  width: 2rem;
-  height: auto;
-  background-color: #995937;
-  border-radius: 5px;
+.caret {
+  position: relative;
+  left: 2.5rem;
+  top: 0.75rem;
+  color: white;
+  
 }
+
+/*need to get this gradient on dropdown
+ background-image:  linear-gradient(135deg, #995937 0%, #ab633d 40%, #cd7749 49%, #ab633d 58%, #995937 100%);
+  */
+
 
 .brands p {
   font-weight: bold;
@@ -652,7 +661,8 @@ footer {
 }
 
 .join {
-  background-color: #995937;
+  background-color: #9a3324; 
+  background-image:  linear-gradient(135deg, #995937 0%, #ab633d 40%, #cd7749 49%, #ab633d 58%, #995937 100%);
   border-radius: 5px;
   height: 2rem;
   width: 5rem;
@@ -660,6 +670,11 @@ footer {
   display: flex;
   margin-bottom: 4rem;
 }
+
+.join:hover {
+  background-image: linear-gradient(135deg, #cd7749 0%, #ab633d 43%, #cd7749 49%, #ab633d 55%, #cd7749 100%);   /*figure out the hover color scheme*/
+}
+
 
 .join p {
   margin: auto;
